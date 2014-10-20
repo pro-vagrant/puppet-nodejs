@@ -1,0 +1,8 @@
+name    'gajdaw-nodejs'
+version '0.1.0'
+source 'git://github.com/pro-vagrant/puppet-nodejs.git'
+author ' Włodzimierz Gajda'
+license 'MIT'
+summary 'The module to install nodejs'
+description 'The module to install nodejs'
+project_page 'https://github.com/pro-vagrant/puppet-nodejs'
