@@ -1,10 +1,10 @@
 {
     "name": "gajdaw-nodejs",
     "version": "0.1.1",
-    "source": "https://github.com/pro-vagrant/puppet-nodejs",
+    "source": "https://github.com/puppet-by-examples/puppet-nodejs",
     "author": "Włodzimierz Gajda",
     "license": "MIT",
-    "project_page": "https://github.com/pro-vagrant/puppet-nodejs",
+    "project_page": "https://github.com/puppet-by-examples/puppet-nodejs",
     "summary": "Puppet module to install nodejs",
     "operatingsystem_support": [
       {
