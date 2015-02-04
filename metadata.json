@@ -1,21 +1,26 @@
 {
-    "name": "gajdaw-nodejs",
-    "version": "0.1.1",
-    "source": "https://github.com/puppet-by-examples/puppet-nodejs",
-    "author": "Włodzimierz Gajda",
-    "license": "MIT",
-    "project_page": "https://github.com/puppet-by-examples/puppet-nodejs",
-    "summary": "Puppet module to install nodejs",
-    "operatingsystem_support": [
-      {
-        "operatingsystem": "Ubuntu",
-        "operatingsystemrelease": [
-          "12.04"
-        ]
-      }
-    ],
-    "requirements": [
-      { "name": "puppet", "version_requirement": "3.x" }
-    ],
-    "dependencies": []
+  "name": "gajdaw-nodejs",
+  "version": "0.1.1",
+  "author": "Włodzimierz Gajda",
+  "summary": "Puppet module to install nodejs",
+  "license": "MIT",
+  "source": "https://github.com/puppet-by-examples/puppet-nodejs",
+  "project_page": "https://github.com/puppet-by-examples/puppet-nodejs",
+  "issues_url": "https://github.com/puppet-by-examples/puppet-nodejs/issues",
+  "tags": [
+    "nodejs",
+    "install"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04"
+      ]
+    }
+  ],
+  "requirements": [
+    { "name": "puppet", "version_requirement": "3.x" }
+  ],
+  "dependencies": []
 }
