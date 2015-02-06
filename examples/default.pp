@@ -1,5 +1,5 @@
 #
-# sudo puppet apply /vagrant/modules/puppet-nodejs/example/default.pp
+# sudo puppet apply /vagrant/modules/puppet-nodejs/examples/default.pp
 # sudo puppet apply -e 'include nodejs'
 #
 
