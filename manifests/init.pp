@@ -21,7 +21,7 @@ class nodejs {
 
     class { 'nodejs::prerequisites': }
 
-    exec { 'nodejs:update-repository':
+    exec { 'nodejs::update-repository':
         command => 'add-apt-repository ppa:chris-lea/node.js',
         require => Class['nodejs::prerequisites']
     }
