@@ -6,6 +6,6 @@ include nodejs
 
 exec { 'install less node module':
     path    => '/usr/bin:/bin:/usr/sbin:/sbin',
-    command => 'npm install -g less &> /dev/null',
+    command => 'npm install -g less',
     require => Class['nodejs'],
 }
